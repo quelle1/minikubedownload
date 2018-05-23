@@ -1,0 +1,4 @@
+FROM ubuntu:16.04
+
+ADD https://storage.googleapis.com/minikube/releases/latest/minikube-windows-amd64.exe /root
+ADD https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 /root
