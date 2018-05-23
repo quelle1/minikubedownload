@@ -2,3 +2,5 @@ FROM ubuntu:16.04
 
 ADD https://storage.googleapis.com/minikube/releases/latest/minikube-windows-amd64.exe /root
 ADD https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 /root
+ADD https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubeadm /root
+ADD https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubectl /root
