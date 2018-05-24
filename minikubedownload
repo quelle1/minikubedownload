@@ -6,3 +6,9 @@ ADD https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/
 ADD https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubelet /root
 ADD https://storage.googleapis.com/minikube/iso/minikube-v0.26.0.iso /root
 ADD https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubectl /root
+
+ADD https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 /root/latest/
+ADD https://storage.googleapis.com/kubernetes-release/release/latest/bin/linux/amd64/kubeadm /root/latest/
+ADD https://storage.googleapis.com/kubernetes-release/release/latest/bin/linux/amd64/kubelet /root/latest/
+ADD https://storage.googleapis.com/minikube/iso/minikube-v0.26.0.iso /root/latest/
+ADD https://storage.googleapis.com/kubernetes-release/release/latest/bin/linux/amd64/kubectl /root/latest/
